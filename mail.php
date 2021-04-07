@@ -7,7 +7,7 @@
 
 <body>
     <?php
-    $retour = mail('karina.castillo@greenovation.cl', 'Envoi depuis la page Contact', $_POST['message'], 'From : https://karina-castillo.github.io');
+    $retour = mail('karina.castillo@greenovation.cl', 'Envoi depuis la page Contact', $_POST['message'], 'From : karina-castillo.github.io');
     if ($retour) {
         echo '<p>Votre message a bien été envoyé.</p>';
     }
